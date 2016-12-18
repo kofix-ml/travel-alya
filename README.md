@@ -9,7 +9,7 @@ Just another project
 git clone https://github.com/kofix-ml/travel-alya.git
 ```
 
-### setting up project
+### Config env
 
 1. go into project folder
   ```
@@ -28,18 +28,18 @@ git clone https://github.com/kofix-ml/travel-alya.git
   cp env .env
   ```
   
-  ..* replace db config 
+  - replace db config 
 
 ![alt text](https://github.com/kofix-ml/travel-alya/blob/master/readmeimg/Screen Shot 2016-12-19 at 12.44.55 AM.png)
 
-4. setting up project 
+### Setting up project 
 
-  ..* migrate db
+  - migrate db
     ```php
     php artisan migrate
     ```
     
-  ..* seed db
+  - seed db
     ```php
     php artisan db:seed
     ```
