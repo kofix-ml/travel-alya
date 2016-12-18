@@ -18,3 +18,31 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+/*
+|--------------------------------------------------------------------------
+| Routes For Navigation (last edited : neonexxa)
+|--------------------------------------------------------------------------
+|
+| No description
+|
+*/
+	
+Route::get('/navi/main','TravelController@main');
+Route::get('/navi/applicants','TravelController@applicants');
+Route::get('/navi/staffs','TravelController@staffs');
+Route::get('/navi/traveldetails','TravelController@traveldetails');
+Route::get('/navi/profile','TravelController@profile');
+
+/*
+|--------------------------------------------------------------------------
+| Routes For Applicants (last edited : neonexxa)
+|--------------------------------------------------------------------------
+|
+| No description
+|
+*/
+
+Route::resource('/form/manifest','ApplicantController');
+
+
