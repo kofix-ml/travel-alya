@@ -16,23 +16,29 @@ git clone https://github.com/kofix-ml/travel-alya.git
   cd travel-alya/
   ```
 2. initialising project
+
   ```
   composer install
   npm install
   ```
+  
 3. setting up env
+
   ```
   cp env .env
   ```
-..* replace db config 
-
+  
+  ..* replace db config 
 
 ![alt text](https://github.com/kofix-ml/travel-alya/blob/master/readmeimg/Screen Shot 2016-12-19 at 12.44.55 AM.png)
+
 4. setting up project 
+
   ..* migrate db
     ```php
     php artisan migrate
     ```
+    
   ..* seed db
     ```php
     php artisan db:seed
