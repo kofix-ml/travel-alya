@@ -25,6 +25,8 @@ git clone https://github.com/kofix-ml/travel-alya.git
   cp env .env
   ```
 ..* replace db config 
+
+
 ![alt text](https://github.com/kofix-ml/travel-alya/blob/master/readmeimg/Screen Shot 2016-12-19 at 12.44.55 AM.png)
 4. setting up project 
   ..* migrate db
