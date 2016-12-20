@@ -82,6 +82,7 @@
     </div>
 
     <!-- Scripts -->
+    <script src="https://use.fontawesome.com/2961340bdf.js"></script>
     <script src="/js/app.js"></script>
 </body>
 </html>

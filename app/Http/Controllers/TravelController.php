@@ -16,6 +16,8 @@ class TravelController extends Controller
         
     public function main (Request $request){
         $parameters = $request->all();
+
+        return view('mainpage',compact("parameters"));
     }
 
     /*
@@ -28,6 +30,8 @@ class TravelController extends Controller
         
     public function applicants (Request $request){
         $parameters = $request->all();
+
+        return view('forms.manifest',compact("parameters"));
     }
     	
     /*
