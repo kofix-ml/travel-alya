@@ -19,6 +19,16 @@
             'csrfToken' => csrf_token(),
         ]); ?>
     </script>
+    <style>
+        #manifestblock {
+        margin: 10px 0px;
+        padding:15px;
+    border-radius: 10px;
+    -webkit-box-shadow:0 0 20px blue; 
+    -moz-box-shadow: 0 0 20px blue; 
+    box-shadow:0 0 20px blue;
+        }
+    </style>
 </head>
 <body>
     <div id="app">

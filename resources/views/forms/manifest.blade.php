@@ -7,7 +7,7 @@
       <form class="form-horizontal">
         <fieldset>
           <div class="col-md-12">
-            <div class="col-md-6">
+            <div id="manifestblock" class="col-md-6">
               <!-- Form Name -->
               <legend>Personal Details</legend>
 
@@ -123,7 +123,7 @@
               </div>
             </div>
             <div class="col-md-6">
-              <div class="col-md-12">
+              <div id="manifestblock" class="col-md-12">
                 <legend>Passport Details</legend>
 
                 <!-- Text input-->
@@ -171,7 +171,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-12">
+              <div id="manifestblock" class="col-md-12">
                 <legend>Employment Details</legend>
       
                 <!-- Text input-->
@@ -211,7 +211,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-12">
+          <div id="manifestblock" class="col-md-12">
             <h3>Not going relative information</h3>
             <hr>
             <!-- Text input-->
@@ -238,7 +238,7 @@
             
 
           </div>
-          <div class="col-md-12">
+          <div id="manifestblock" class="col-md-12">
             <h3>Going with <button id="addbtn" name="addbtn" class="btn btn-success"> Add more <i class="fa fa-plus" aria-hidden="true"></i></button> </h3>
             <hr>
             <!-- Text input-->
