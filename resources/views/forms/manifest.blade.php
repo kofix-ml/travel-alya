@@ -52,7 +52,7 @@
               <!-- Text input-->
               <div class="form-group">
                 <label class="col-md-4 control-label" for="mom_name">Nama Ibu</label>  
-                <div class="col-md-4">
+                <div class="col-md-8">
                 <input id="mom_name" name="mom_name" type="text" placeholder="ex. Siti Aminah binti Ahmad" class="form-control input-md" required="">
                   
                 </div>
@@ -61,7 +61,7 @@
               <!-- Textarea -->
               <div class="form-group">
                 <label class="col-md-4 control-label" for="address">Alamat</label>
-                <div class="col-md-4">                     
+                <div class="col-md-8">                     
                   <textarea class="form-control" id="address" name="address"></textarea>
                 </div>
               </div>
@@ -78,7 +78,7 @@
               <!-- Text input-->
               <div class="form-group">
                 <label class="col-md-4 control-label" for="birth_place">Tempat Lahir</label>  
-                <div class="col-md-4">
+                <div class="col-md-8">
                 <input id="birth_place" name="birth_place" type="text" placeholder="Tempat Lahir" class="form-control input-md" required="">
                   
                 </div>
@@ -107,7 +107,7 @@
               <!-- Text input-->
               <div class="form-group">
                 <label class="col-md-4 control-label" for="email">E-mel</label>  
-                <div class="col-md-4">
+                <div class="col-md-8">
                 <input id="email" name="email" type="text" placeholder="" class="form-control input-md" required="">
                   
                 </div>
@@ -129,7 +129,7 @@
                 <!-- Text input-->
                 <div class="form-group">
                   <label class="col-md-4 control-label" for="passport_no">No. Passport</label>  
-                  <div class="col-md-4">
+                  <div class="col-md-8">
                   <input id="passport_no" name="passport_no" type="text" placeholder="ex. A2471826" class="form-control input-md" required="">
                     
                   </div>
@@ -138,7 +138,7 @@
                 <!-- Text input-->
                 <div class="form-group">
                   <label class="col-md-4 control-label" for="pass_place">Tempat Passport Dikeluarkan</label>  
-                  <div class="col-md-4">
+                  <div class="col-md-8">
                   <input id="pass_place" name="pass_place" type="text" placeholder="" class="form-control input-md">
                     
                   </div>
@@ -165,7 +165,7 @@
                 <!-- Text input-->
                 <div class="form-group">
                   <label class="col-md-4 control-label" for="status">Status</label>  
-                  <div class="col-md-4">
+                  <div class="col-md-8">
                   <input id="status" name="status" type="text" placeholder="" class="form-control input-md" required="">
                     
                   </div>
@@ -177,7 +177,7 @@
                 <!-- Text input-->
                 <div class="form-group">
                   <label class="col-md-4 control-label" for="work_name">Nama Majikan/company</label>  
-                  <div class="col-md-4">
+                  <div class="col-md-8">
                   <input id="work_name" name="work_name" type="text" placeholder="ex. Corporate SDN BHD" class="form-control input-md" required="">
                     
                   </div>
@@ -186,7 +186,7 @@
                 <!-- Textarea -->
                 <div class="form-group">
                   <label class="col-md-4 control-label" for="work_address">Alamat majikan</label>
-                  <div class="col-md-4">                     
+                  <div class="col-md-8">                     
                     <textarea class="form-control" id="work_address" name="work_address"></textarea>
                   </div>
                 </div>
