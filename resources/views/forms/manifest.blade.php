@@ -259,7 +259,7 @@
           </div>
           <div class="col-md-12">
             <br>
-            <button id="singlebutton" name="singlebutton" class="btn btn-primary btn-block">submit</button>
+            <button id="singlebutton" name="singlebutton" class="btn btn-success btn-block">submit</button>
           </div>
         </fieldset>
       </form>

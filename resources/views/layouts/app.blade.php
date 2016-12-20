@@ -20,19 +20,23 @@
         ]); ?>
     </script>
     <style>
+        .navi-color{
+            background-color: #8DC590;
+            border-color: green;
+        }
         #manifestblock {
-        margin: 10px 0px;
-        padding:15px;
-    border-radius: 10px;
-    -webkit-box-shadow:0 0 20px blue; 
-    -moz-box-shadow: 0 0 20px blue; 
-    box-shadow:0 0 20px blue;
+            margin: 10px 0px;
+            padding: 15px;
+            border-radius: 10px;
+            -webkit-box-shadow: 0 0 20px green; 
+            -moz-box-shadow: 0 0 20px green; 
+            box-shadow: 0 0 20px green;
         }
     </style>
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-default navbar-static-top">
+        <nav class="navbar navi-color navbar-static-top">
             <div class="container">
                 <div class="navbar-header">
 
@@ -45,7 +49,7 @@
                     </button>
 
                     <!-- Branding Image -->
-                    <a class="navbar-brand" href="{{ url('/') }}">
+                    <a style="color:white" class="navbar-brand" href="{{ url('/') }}">
                         {{ config('app.name', 'Laravel') }}
                     </a>
                 </div>
@@ -60,8 +64,8 @@
                     <ul class="nav navbar-nav navbar-right">
                         <!-- Authentication Links -->
                         @if (Auth::guest())
-                            <li><a href="{{ url('/login') }}">Login</a></li>
-                            <li><a href="{{ url('/register') }}">Register</a></li>
+                            <li><a style="color:white" href="{{ url('/login') }}">Login</a></li>
+                            <li><a style="color:white" href="{{ url('/register') }}">Register</a></li>
                         @else
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
